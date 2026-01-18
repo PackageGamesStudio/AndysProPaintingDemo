@@ -1,3 +1,7 @@
+*::before, *::after{
+    box-sizing: border-box;
+}
+
 .header{
     width: auto;
     display: grid;
@@ -21,7 +25,9 @@ a.currentPage{
     text-decoration: underline;
 }
 .logo{
+    
     width: 100px;
+    max-width: 100%;
     height: 100px;
     border-radius: 50%;
 }

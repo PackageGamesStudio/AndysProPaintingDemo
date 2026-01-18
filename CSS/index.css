@@ -1,4 +1,5 @@
 .CTA-container{
+    max-width: 100%;
     margin-top: 10vh;
     margin-bottom: 5vh;
     padding: 25px;
@@ -9,6 +10,7 @@
 }
 .CTA-text{
     background-color:#EAE0CF;
+    max-width: 100%;
     display: inline-block;
     padding:50px 20px;
     width: 300px;
@@ -21,6 +23,7 @@
 }
 .CTA-image{
     height: 500px;
+    max-width: 100%;
     border-radius: 50px;
 }
 .button{
@@ -45,6 +48,7 @@
 }
 .strengthsContainer{
     background-color: #EAE0CF;
+    max-width: 100%;
     padding-top: 2.5%;
     padding-bottom: 5%;
 }
@@ -101,6 +105,7 @@
 .services-panel>li>img{
     height:300px;
     width:300px;
+    
     border-radius: 50%;
 }
 
@@ -254,8 +259,7 @@ footer{
 .CTA-text{
     background-color:#EAE0CF;
     display: inline-block;
-    padding:50px 20px;
-    width: 400px;
+    max-width: 100%;
     height: 50%;
     border-radius: 10px;
 }
