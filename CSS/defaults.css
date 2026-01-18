@@ -44,3 +44,37 @@ a.currentPage{
 .desktop-only-button{
     display:inline;
 }
+@media(max-width:800px){
+    .nav{
+    display: none;
+}
+.nav-mobile{
+    display:inline;
+}
+.activate{
+    display: none;
+}
+
+#nav-menu>li{
+    display: grid;
+    grid-template-rows: .5fr .5fr .5fr;
+    border: 3px solid #333;
+    text-align: center;
+    width: 100px;
+    background-color: #94B4C1;
+
+}
+
+.header{
+    display: flex;
+    gap:20px;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.companyTitle{
+    font-size: 75%;
+}
+}
