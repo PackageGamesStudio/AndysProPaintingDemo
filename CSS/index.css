@@ -42,3 +42,9 @@
 .desktop-only-button{
     display:none;
 }
+@media(max-width:800px){
+    .CTA-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
