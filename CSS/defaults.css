@@ -1,4 +1,5 @@
 .header{
+    width: auto;
     display: grid;
     grid-template-columns: .2fr 1.5fr 1fr;
     justify-content: center;
