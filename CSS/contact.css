@@ -1,0 +1,36 @@
+.info{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contact-info{
+    padding: 2%;
+    background-color: #EAE0CF;
+    text-align: center;
+    width: fit-content;
+    border-radius: 5%;
+}
+
+img{
+    height:400px;
+    border-radius: 7px;
+}
+
+.bottom-images{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+@media(max-width:800px){
+    .bottom-images{
+        display: flex;
+        flex-direction: column;
+    }
+}
